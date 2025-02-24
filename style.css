@@ -20,12 +20,15 @@ body {
     height: 100vh;
     background-color: var(--color-body);
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
 .main-content {
     display: flex;
+    flex: 1;
     flex-direction: column;
     height: 100%;
     width: 100%;
@@ -192,8 +195,20 @@ ul {
 }
 
 @media (max-width: 768px) {
+    body {
+        height: 10vh;
+        background-color: var(--color-body);
+        display: flex;
+        flex-direction: column;
+        min-height: 10vh;
+        justify-content: center;
+        align-items: center;
+    }
+
     .main-title {
         font-size: 28px;
+        font-family: "Merriweather", serif;
+        font-style: italic;
     }
 
     .section-title {
@@ -204,4 +219,6 @@ ul {
         font-family: "Inter", serif;
         font-size: 16px;
     }
+
+
 }
