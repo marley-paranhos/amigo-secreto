@@ -231,14 +231,14 @@ ul {
         color: var(--color-text);
         font-weight: bold;
         font-family: "Inter", sans-serif;
-        font-size: 12px;
+        font-size: 14px;
         margin: 20px 0;
     }
     
     .result-list {
         margin-top: 15px;
         color: #ee3f45;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
         text-align: center;
     }
