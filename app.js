@@ -50,7 +50,7 @@ function sortearAmigo() {
             return sortearAmigo(); // Se der erro, refaz o sorteio
         }
 
-        resultado.push(`${amigo} → ${sorteado}`);
+        resultado.push(`${amigo} => ${sorteado}`);
     }
 
     exibirResultado(resultado);
