@@ -205,6 +205,11 @@ ul {
         align-items: center;
     }
 
+    #amigo-secreto {
+        width: 30%;
+        margin-right: 30%;
+    }
+
     .main-title {
         font-size: 28px;
         font-family: "Merriweather", serif;
