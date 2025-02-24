@@ -214,6 +214,12 @@ ul {
         font-size: 28px;
         font-family: "Merriweather", serif;
         font-style: italic;
+        margin-left: 30%;
+    }
+
+    .button-container {
+        max-width: 150px;
+        justify-content: center;
     }
 
     .section-title {
