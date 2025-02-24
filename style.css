@@ -196,13 +196,8 @@ ul {
 
 @media (max-width: 768px) {
     body {
-        height: 10vh;
-        background-color: var(--color-body);
-        display: flex;
-        flex-direction: column;
-        min-height: 10vh;
-        justify-content: center;
-        align-items: center;
+        height: auto;
+        min-height: auto;
     }
 
     #amigo-secreto {
@@ -241,5 +236,15 @@ ul {
         font-size: 15px;
         font-weight: bold;
         text-align: center;
+    }
+
+    .button-container {
+        width: 200px;
+        justify-content: center;
+    }
+
+    .input-section {
+        width: auto;
+        margin-right: auto;
     }
 }

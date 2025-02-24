@@ -11,7 +11,9 @@ function adicionarAmigo() {
 
     nomes.forEach(nome => {
         nome = nome.trim().toUpperCase(); // Remove espaços antes e depois
-        if (nome !== "" && !listaAmigos.includes(nome)) {
+        if (nome === "") {
+            alert("É necessário digitar um nome para inseri-lo na lista!"); // Alerta se o nome estiver em branco
+        } else if (!listaAmigos.includes(nome)) {
             listaAmigos.push(nome);
         }
     });
