@@ -75,7 +75,7 @@ function exibirResultado(resultado) {
 
 // Função para reiniciar o jogo
 function reiniciarJogo() {
-    alert('O jogo será reiniciado e os nomes adcionados na lista serão excluídos!')
+    alert('O jogo será reiniciado e os nomes adicionados na lista serão excluídos!')
     listaAmigos = []; // Reseta a lista
     document.querySelector(".name-list").innerHTML = "";
     document.querySelector(".result-list").innerHTML = "";
