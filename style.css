@@ -45,7 +45,7 @@ body {
 
 /* Seção de entrada */
 .input-section {
-    flex: 60%;
+    flex: 100%;
     background-color: var(--color-secondary);
     /* background: linear-gradient(135deg, #fdbac5, #faccb1); */
     border: 3px solid #000;
@@ -206,7 +206,7 @@ ul {
     }
 
     .main-title {
-        font-size: 28px;
+        font-size: 30px;
         font-family: "Merriweather", serif;
         font-style: italic;
         margin-left: 30%;
@@ -229,7 +229,7 @@ ul {
         font-size: 15px;
         margin: 20px 0;
     }
-    
+
     .result-list {
         margin-top: 15px;
         color: #ee3f45;
@@ -246,5 +246,8 @@ ul {
     .input-section {
         width: auto;
         margin-right: auto;
+        flex: 60%;
+        display: flex;
+        flex-direction: column;
     }
 }
